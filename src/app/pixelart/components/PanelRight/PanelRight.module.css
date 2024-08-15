@@ -1,0 +1,68 @@
+.ContenedorGeneral {
+  border-radius: 20px;
+  box-shadow: 0 0px 15px gold;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.SubContenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.ColorInput {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RangeInput {
+  width: 100%;
+  cursor: pointer;
+}
+
+.PixelSize {
+  font-weight: bold;
+  text-align: right;
+  margin-top: -10px;
+}
+
+.DownloadSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ContenedorBtns {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.DownloadButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  border: none;
+  border-radius: 5px;
+  background-color: gold;
+  color: #000;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.DownloadButton:hover {
+  background-color: darkgoldenrod;
+}

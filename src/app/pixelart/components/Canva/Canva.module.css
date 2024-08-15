@@ -1,0 +1,9 @@
+.ContenedorGeneral {
+  border-radius: 20px;
+  box-shadow: 0 0px 15px gold;
+}
+
+.canvas {
+  background-color: gray;
+  border-radius: 20px;
+}
